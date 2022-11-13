@@ -248,7 +248,7 @@ void ptrheads(){
 }
 
 void omp(){
-    long n = 50000000;
+    long n = 50000;
     int nbThread = 2;
     long* tab = malloc(n * sizeof(long));
     long* tmp = malloc(n * sizeof(long));
@@ -270,9 +270,9 @@ void omp(){
 }
 
 int main(int argc, char* argv[]) {
-    sequentiel();
+    //sequentiel();
     //ptrheads();
-    //omp();
+    omp();
     //generateFile();
     /*int n = 10;
     int i;
