@@ -215,7 +215,7 @@ void ptrheads(){
     }
     int n;
     fscanf(stream, "%d", &n);*/
-    long n = 50000;
+    long n = 100000;
     int nbThread = 1;
     long i;
     long* tab = malloc(n * sizeof(long));
