@@ -182,7 +182,7 @@ void generateFile(){
 }
 
 void sequentiel(){
-    long n = 500000000;
+    long n = 50000000;
     long* tab = malloc(n * sizeof(long));
     long* tmp = malloc(n * sizeof(long));
     long i;
