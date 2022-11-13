@@ -270,8 +270,8 @@ void omp(){
 }
 
 int main(int argc, char* argv[]) {
-    //sequentiel();
-    ptrheads();
+    sequentiel();
+    //ptrheads();
     //omp();
     //generateFile();
     /*int n = 10;
