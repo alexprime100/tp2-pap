@@ -182,7 +182,7 @@ void generateFile(){
 }
 
 void sequentiel(){
-    long n = 50000000;
+    long n = 50000;
     long* tab = malloc(n * sizeof(long));
     long* tmp = malloc(n * sizeof(long));
     long i;
@@ -270,8 +270,8 @@ void omp(){
 }
 
 int main(int argc, char* argv[]) {
-    //sequentiel();
-    ptrheads();
+    sequentiel();
+    //ptrheads();
     //omp();
     //generateFile();
     /*int n = 10;
