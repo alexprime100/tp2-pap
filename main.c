@@ -215,8 +215,8 @@ void ptrheads(){
     }
     int n;
     fscanf(stream, "%d", &n);*/
-    long n = 500000;
-    int nbThread = 1;
+    long n = 50000;
+    int nbThread = 2;
     long i;
     long* tab = malloc(n * sizeof(long));
     long* tmp = malloc(n * sizeof(long));
@@ -270,8 +270,8 @@ void omp(){
 }
 
 int main(int argc, char* argv[]) {
-    sequentiel();
-    //ptrheads();
+    //sequentiel();
+    ptrheads();
     //omp();
     //generateFile();
     /*int n = 10;
