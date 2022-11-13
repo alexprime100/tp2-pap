@@ -248,7 +248,7 @@ void ptrheads(){
 }
 
 void omp(){
-    long n = 50000;
+    long n = 100000;
     int nbThread = 1;
     long* tab = malloc(n * sizeof(long));
     long* tmp = malloc(n * sizeof(long));
