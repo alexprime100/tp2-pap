@@ -182,7 +182,7 @@ void generateFile(){
 }
 
 void sequentiel(){
-    long n = 100000;
+    long n = 10000;
     long* tab = malloc(n * sizeof(long));
     long* tmp = malloc(n * sizeof(long));
     long i;
@@ -215,7 +215,7 @@ void ptrheads(){
     }
     int n;
     fscanf(stream, "%d", &n);*/
-    long n = 100000;
+    long n = 10000;
     int nbThread = 2;
     long i;
     long* tab = malloc(n * sizeof(long));
@@ -270,9 +270,9 @@ void omp(){
 }
 
 int main(int argc, char* argv[]) {
-    //sequentiel();
+    sequentiel();
     //ptrheads();
-    omp();
+    //omp();
     //generateFile();
     /*int n = 10;
     int i;
