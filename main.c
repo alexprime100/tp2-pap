@@ -182,7 +182,7 @@ void generateFile(){
 }
 
 void sequentiel(){
-    long n = 10000;
+    long n = 5000;
     long* tab = malloc(n * sizeof(long));
     long* tmp = malloc(n * sizeof(long));
     long i;
@@ -215,7 +215,7 @@ void ptrheads(){
     }
     int n;
     fscanf(stream, "%d", &n);*/
-    long n = 10000;
+    long n = 5000;
     int nbThread = 1;
     long i;
     long* tab = malloc(n * sizeof(long));
